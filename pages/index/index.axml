@@ -1,0 +1,16 @@
+<view >
+    <view class="page-section">
+        <view class="">
+            <swiper
+                    indicator-dots="{{indicatorDots}}"
+                    autoplay="{{autoplay}}"
+                    vertical="{{vertical}}"
+                    interval="{{interval}}"
+                    circular="{{circular}}"
+            >
+                <swiper-item  key="swiper-item-{{index}}" a:for="{{background}}" >
+                    <!-- <view class="swiper-item bc_{{item}}"></view> -->
+                    <image class="swiper-item bc_{{item}}" style="height:{{height}}" mode="scaleToFill" src="{{item}}"/>
+                </swiper-item>
+            </swiper>
+</view>

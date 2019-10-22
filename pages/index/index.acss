@@ -1,0 +1,8 @@
+.swiper-item{
+  height:667px;
+  width:100%
+}
+
+.margin-t {
+  margin-top: 24px;
+}
